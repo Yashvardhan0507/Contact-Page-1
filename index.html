@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="form-container">
+
+        <div class="side-container">
+
+            <span><b>Contact Us</b></span>
+
+            <div class="body-title">
+                Get In Touch With Us
+            </div>
+            <br>
+            <br>
+
+            <div class="body-desc">
+                Send us your message and we will response to you very soon.
+                <br>
+                Business days/hours: Mon-Fri, 9am - 4pm PST.
+            </div>
+
+            <br>
+
+            <div class="home-cont">
+
+                <img src="https://i.imgur.com/aBH4X73.png" alt="Home Address">
+                <span><b>Our Location:</b> 3898 Abia Martin Drive, New York, NY 11944</span>
+
+            </div>
+
+            <div class="phone-cont">
+
+                <img src="https://i.imgur.com/qU2r8Nw.png" alt="Contact Phone">
+                <span><b>Phone Number:</b> (+1)631 477 8156</span>
+
+            </div>
+
+            <div class="mail-cont">
+
+                <img src="https://i.imgur.com/T10STsm.png" alt="Contact Email">
+                <span><b>Email Address:</b> codebykay101@gmail.com</span>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <form id="contact-form">
+
+                <br>
+
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+                <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required>
+
+                <br>
+
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+
+                <br>
+
+                <input type="submit" value="Send Message" class="primary-btn">
+
+            </form>
+        </div>
+    </div>
+    <script>
+        // Optional Javascript code to add an onclick event to the button
+        document.querySelector(".primary-btn").onclick = function() {
+            // Do something when the button is clicked
+        };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
